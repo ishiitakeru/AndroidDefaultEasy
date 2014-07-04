@@ -1,0 +1,12 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.loveandcomic.defaulteasy.MainActivity"
+    tools:ignore="MergeRootFrame" />
+    <!--
+        メインアクティビティのためのレイアウトXML
+        レイアウトXMLには枠となるフレームレイアウト以外のビューが置かれていない。
+        プログラム上で、この「R.id.container」に、動的にビュー（フラグメント）を追加している。
+    -->
